@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 700px;
+    background: url(../images/header_bg.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    background: black;
+    padding: 10px;
+}
+
+.type {
+    color: white;
+    font-size: 30px;
+    transition: 500ms;
+}
+.type:hover {
+    color: black;
+    background: white;
+}
+
+.header__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial;
+    margin-bottom: 50px;
+}
+
+.button {
+    background: black;
+    color: white;
+    padding: 10px 70px;
+    font-size: 24px;
+    transition: 500ms;
+}
+.button:hover {
+    background: white;
+    color: black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about p {
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial;
+    margin-bottom: 30px; 
+}
+
+.item {
+    width: 350px;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: 500ms;
+}
+.item:hover {
+    border: 2px solid blue;
+}
+
+.item__title {
+    font-family: Arial;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.item__link {
+    background: black;
+    color: white;
+    font-family: arial;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.item__link:hover {
+    background: darkblue;
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.footer__img {
+    margin: 0 40px;
+}
